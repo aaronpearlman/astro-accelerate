@@ -8,8 +8,25 @@
 #include "host_info.hpp"
 #include "params.hpp"
 
+#include "aa_sigproc_input.hpp"
+#include "aa_pipeline.hpp"
+#include "aa_parse_config_file.hpp"
+
 int main(int argc, char* argv[])
 {
+  const std::string config_file_path = ""; 
+  aa_pipeline pipeline;
+  aa_config config(argc, argv, "", pipeline); 
+
+
+
+
+
+
+
+
+
+  return 0;
 	// Internal code variables
 	// File pointers
 	FILE *fp = NULL;
